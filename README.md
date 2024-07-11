@@ -8,10 +8,10 @@
 
 ## Get Hash
 - Buka Game
+- New User Claim Manual Dulu
 - Inspect Element / Devtools
-- Refresh Game
 - Menu Network
-- click "info / sign-in / etc
+- click "info / sign-in / claim / etc ( Kalo Gada Apa-Apa Refresh Game dulu
 - Headers
 - Cari "Rawdata"
 - Copy bagian query_id=xxxxx / user=xxxxxxx sampai akhir

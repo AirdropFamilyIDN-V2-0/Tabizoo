@@ -7,11 +7,11 @@
 - Multi Account
 
 ## Get Hash
+- Note: Untuk New User wajib claim Dan Selesaikan task twitter dan join channel tele secara manual dulu
 - Buka Game
-- New User Claim Manual Dulu
 - Inspect Element / Devtools
 - Menu Network
-- click "info / sign-in / claim / etc ( Kalo Gada Apa-Apa Refresh Game dulu
+- click "info / sign-in / claim / etc"
 - Headers
 - Cari "Rawdata"
 - Copy bagian query_id=xxxxx / user=xxxxxxx sampai akhir

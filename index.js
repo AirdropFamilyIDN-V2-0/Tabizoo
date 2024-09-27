@@ -1,2 +1,142 @@
 // t.me/andraz404 // AirdropFamilyIDN x boterdrop 
-const _0x423083=_0x1bde;(function(_0x54c702,_0x51e6b4){const _0x229225=_0x1bde,_0x4dc48d=_0x54c702();while(!![]){try{const _0x2d278b=-parseInt(_0x229225(0x177))/0x1*(-parseInt(_0x229225(0x155))/0x2)+parseInt(_0x229225(0x16b))/0x3*(-parseInt(_0x229225(0x16e))/0x4)+parseInt(_0x229225(0x14b))/0x5+-parseInt(_0x229225(0x161))/0x6*(-parseInt(_0x229225(0x13d))/0x7)+parseInt(_0x229225(0x159))/0x8+-parseInt(_0x229225(0x145))/0x9*(-parseInt(_0x229225(0x13c))/0xa)+parseInt(_0x229225(0x142))/0xb*(-parseInt(_0x229225(0x160))/0xc);if(_0x2d278b===_0x51e6b4)break;else _0x4dc48d['push'](_0x4dc48d['shift']());}catch(_0x559752){_0x4dc48d['push'](_0x4dc48d['shift']());}}}(_0x4e8d,0x6e543));const axios=require('axios'),fs=require('fs'),readline=require(_0x423083(0x140)),askQuestion=_0xe0b966=>{const _0x259c03=_0x423083,_0x1dc422=readline[_0x259c03(0x187)]({'input':process['stdin'],'output':process['stdout']});return new Promise(_0x33ef0e=>_0x1dc422[_0x259c03(0x184)](_0xe0b966,_0x4e5d74=>{const _0x461192=_0x259c03;_0x1dc422[_0x461192(0x183)](),_0x33ef0e(_0x4e5d74);}));},checkLicense=async(_0x594686,_0x21289f)=>{const _0x38e09b=_0x423083,_0x4c13e9='https://airdropfamilyidn.com/api/credential/check',_0x5a50e2={'purchase_code':_0x594686,'email':_0x21289f},_0x4eaeab={'Accept':_0x38e09b(0x189),'Content-Type':'application/json','User-Agent':_0x38e09b(0x164)};for(let _0x468fc5=0x0;_0x468fc5<0x5;_0x468fc5++){try{const _0x3f1306=await axios[_0x38e09b(0x171)](_0x4c13e9,_0x5a50e2,{'headers':_0x4eaeab});if(_0x3f1306[_0x38e09b(0x165)]===0xc8)return console['log'](_0x3f1306[_0x38e09b(0x172)][_0x38e09b(0x179)],_0x3f1306['status']),!![];else{if(_0x3f1306['status']===0x1ad)console[_0x38e09b(0x13e)](_0x38e09b(0x167),_0x3f1306[_0x38e09b(0x172)]),await new Promise(_0x543e09=>setTimeout(_0x543e09,0x1388));else return console['log'](_0x38e09b(0x17d)+_0x3f1306[_0x38e09b(0x165)]),![];}}catch(_0x3685c0){return console[_0x38e09b(0x13e)](_0x38e09b(0x162)+_0x3685c0['message']),![];}}return![];},getLicense=async()=>{const _0x37d05e=_0x423083;if(fs[_0x37d05e(0x16d)](_0x37d05e(0x13a))){const [_0x226bf2,_0x3ded8b]=fs[_0x37d05e(0x16f)](_0x37d05e(0x13a),_0x37d05e(0x147))['split'](',');if(_0x226bf2&&_0x3ded8b)return{'purchase_code':_0x226bf2,'email':_0x3ded8b};}const _0x38b3cf=await askQuestion('Masukkan\x20License:\x20'),_0x292378=await askQuestion(_0x37d05e(0x14a));return fs[_0x37d05e(0x17b)](_0x37d05e(0x13a),_0x38b3cf+','+_0x292378,_0x37d05e(0x147)),{'purchase_code':_0x38b3cf,'email':_0x292378};};async function delay(_0x36e802){return new Promise(_0x1095e2=>setTimeout(_0x1095e2,_0x36e802));}function formatTime(_0x4d5fb9){const _0x9c3c5a=_0x423083,_0xd9e72c=Math[_0x9c3c5a(0x148)](_0x4d5fb9/0x3e8),_0x3d95dc=String(Math['floor'](_0xd9e72c/0xe10))['padStart'](0x2,'0'),_0x3d68b8=String(Math[_0x9c3c5a(0x148)](_0xd9e72c%0xe10/0x3c))[_0x9c3c5a(0x15f)](0x2,'0'),_0x4071a1=String(_0xd9e72c%0x3c)[_0x9c3c5a(0x15f)](0x2,'0');return _0x3d95dc+':'+_0x3d68b8+':'+_0x4071a1;}const currentTime=new Date(),WaktuTanggal=currentTime[_0x423083(0x13f)]()['toString']()['padStart'](0x2,'0')+':'+currentTime[_0x423083(0x139)]()[_0x423083(0x158)]()[_0x423083(0x15f)](0x2,'0')+',\x20'+currentTime[_0x423083(0x169)]()[_0x423083(0x158)]()[_0x423083(0x15f)](0x2,'0')+'/'+(currentTime['getMonth']()+0x1)[_0x423083(0x158)]()[_0x423083(0x15f)](0x2,'0')+'/'+currentTime[_0x423083(0x156)]();async function countdown(_0xbd578e){const _0x7bf521=_0x423083;let _0x355732=_0xbd578e;const _0x4d66e2=[_0x7bf521(0x14f),_0x7bf521(0x14c),_0x7bf521(0x163),_0x7bf521(0x17a),_0x7bf521(0x141),_0x7bf521(0x178)];let _0x58e3ef=0x0;while(_0x355732>0x0){process[_0x7bf521(0x17c)][_0x7bf521(0x152)](_0x7bf521(0x13b)+_0x4d66e2[_0x58e3ef]+_0x7bf521(0x154)+formatTime(_0x355732)),await delay(0x50),_0x355732-=0x50,_0x58e3ef=(_0x58e3ef+0x1)%_0x4d66e2[_0x7bf521(0x15d)];}process[_0x7bf521(0x17c)][_0x7bf521(0x152)](_0x7bf521(0x181)),console[_0x7bf521(0x13e)]('\x0a');}async function getProfile(_0x405cc4){const _0x1ac4db=_0x423083,_0x484d26=_0x1ac4db(0x149),_0x3ce5a1=await axios[_0x1ac4db(0x186)](_0x484d26,{'headers':_0x405cc4});return _0x3ce5a1[_0x1ac4db(0x172)];}async function getInfo(_0x391419){const _0x409ef4=_0x423083,_0x9d718e=_0x409ef4(0x157),_0x108461=await axios[_0x409ef4(0x186)](_0x9d718e,{'headers':_0x391419});return _0x108461['data'];}async function checkinDaily(_0x419088){const _0x1a8137=_0x423083,_0x21f3bf=_0x1a8137(0x176),_0x52e3bd=await axios[_0x1a8137(0x171)](_0x21f3bf,{},{'headers':_0x419088});return _0x52e3bd[_0x1a8137(0x172)];}async function claimFarming(_0x32fbb0){const _0x18e416=_0x423083,_0x2b6852=_0x18e416(0x144),_0x125da8=await axios[_0x18e416(0x171)](_0x2b6852,{},{'headers':_0x32fbb0});return _0x125da8[_0x18e416(0x172)];}function _0x4e8d(){const _0x518235=['https://app.tabibot.com/api/mining/claim','27ymNVVF','\x1b[0m','utf8','floor','https://app.tabibot.com/api/user/profile','Masukkan\x20email:\x20','2607315MyXoOE','𓃉𓃉∘','https://app.tabibot.com/api/user/level-up','\x20]\x20Klaim\x20Farming:\x20\x1b[31m','𓃉𓃉𓃉','\x20]\x20Level:\x20\x1b[33m','toLowerCase','write','\x20]\x20Balance:\x20\x1b[33m','\x20]\x20Countdown:\x20','147704NJMzLC','getFullYear','https://app.tabibot.com/api/mining/info','toString','3112224rJndsy','\x20]\x20Mining\x20Farming:\x20\x1b[33m','current','\x0a\x20_____\x20\x20\x20\x20\x20\x20_\x20\x20\x20\x20\x20_\x20_____\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a/__\x20\x20\x20\x5c__\x20_|\x20|__\x20(_)\x20_\x20\x20/\x20___\x20\x20\x20___\x20\x20\x0a\x20\x20/\x20/\x5c/\x20_`\x20|\x20\x27_\x20\x5c|\x20\x5c//\x20/\x20/\x20_\x20\x5c\x20/\x20_\x20\x5c\x20\x0a\x20/\x20/\x20|\x20(_|\x20|\x20|_)\x20|\x20|/\x20//\x5c\x20(_)\x20|\x20(_)\x20|\x0a\x20\x5c/\x20\x20\x20\x5c__,_|_.__/|_/____/\x5c___/\x20\x5c___/\x20\x0a\x0a\x20\x20t.me/andraz404\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20v1.0\x0a\x20\x20\x0a','length','referralRate','padStart','36YHBPfg','126DRdiBT','Permintaan\x20gagal:\x20','𓃉∘°','PostmanRuntime/7.28.4','status','level','Terlalu\x20banyak\x20permintaan.\x20Mencoba\x20lagi\x20dalam\x205\x20detik...','\x20]\x20Name:\x20\x1b[33m','getDate','hash.txt','429snGCmv','split','existsSync','10456Qvoakf','readFileSync','toLocaleString','post','data','hasCheckedIn','\x20]\x20Checkin\x20Daily:\x20\x1b[32mSukses\x1b[0m','coins','https://app.tabibot.com/api/user/check-in','4bQaRDk','∘𓃉𓃉','message','∘°∘','writeFileSync','stdout','Kesalahan:\x20','\x1b[0m\x0a','nextClaimTime','error','\x0d[\x20∘∘∘\x20]\x20Countdown:\x2000:00:','\x0aAuto\x20Level\x20Up\x20(y/n)\x20?\x20','close','question','\x20]\x20Level\x20Up:\x20\x1b[31mGagal\x1b[0m','get','createInterface','\x20]\x20Klaim\x20Farming:\x20\x1b[32mSukses\x20+','application/json','\x20]\x20ID:\x20\x1b[33m','getMinutes','license.txt','\x0d[\x20','2370730MdEHDL','153139TMXNpb','log','getHours','readline','°∘𓃉','5686362afNWEv','topLimit'];_0x4e8d=function(){return _0x518235;};return _0x4e8d();}async function levelUp(_0x358698){const _0x14cf48=_0x423083,_0x5279c8=_0x14cf48(0x14d),_0x18386c=await axios['post'](_0x5279c8,{},{'headers':_0x358698});return _0x18386c[_0x14cf48(0x172)];}async function processAccount(_0xe323c3,_0x84c295){const _0x7815d6=_0x423083,_0x4a290a={'Rawdata':_0xe323c3['trim']()};try{let _0x3fcb44=await getProfile(_0x4a290a);console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x138)+_0x3fcb44['tgUserId']+_0x7815d6(0x146)),console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x168)+_0x3fcb44['name']+_0x7815d6(0x146));!_0x3fcb44[_0x7815d6(0x173)]?(await checkinDaily(_0x4a290a),console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x174))):console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+'\x20]\x20Checkin\x20Daily:\x20\x1b[31mSudah\x20Pernah\x1b[0m');const _0x1c9b32=await getInfo(_0x4a290a);console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+'\x20]\x20Rate\x20Mining:\x20\x1b[33m'+(_0x1c9b32['rate']+_0x1c9b32[_0x7815d6(0x15e)])+_0x7815d6(0x146));if(_0x1c9b32[_0x7815d6(0x143)]===_0x1c9b32[_0x7815d6(0x15b)])await claimFarming(_0x4a290a),console['log']('[\x20'+WaktuTanggal+_0x7815d6(0x15a)+_0x1c9b32[_0x7815d6(0x15b)]+'/'+_0x1c9b32[_0x7815d6(0x143)]+_0x7815d6(0x146)),console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x188)+_0x1c9b32[_0x7815d6(0x15b)]+_0x7815d6(0x146));else{console['log']('[\x20'+WaktuTanggal+'\x20]\x20Mining\x20Farming:\x20\x1b[33m'+_0x1c9b32['current']+'/'+_0x1c9b32[_0x7815d6(0x143)]+_0x7815d6(0x146));const _0xd9bda8=new Date(_0x1c9b32[_0x7815d6(0x17f)])[_0x7815d6(0x170)]();console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x14e)+_0xd9bda8+_0x7815d6(0x146));}if(_0x84c295){const _0x430242=await getProfile(_0x4a290a),_0x64aa60=await levelUp(_0x4a290a);_0x430242[_0x7815d6(0x166)]<_0x64aa60[_0x7815d6(0x166)]?(console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+'\x20]\x20Level\x20Up:\x20\x1b[32mSukses\x1b[0m'),console['log']('[\x20'+WaktuTanggal+_0x7815d6(0x150)+_0x64aa60['level']+_0x7815d6(0x146))):(console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x185)),console['log']('[\x20'+WaktuTanggal+_0x7815d6(0x150)+_0x64aa60[_0x7815d6(0x166)]+_0x7815d6(0x146)));}else console['log']('[\x20'+WaktuTanggal+_0x7815d6(0x150)+_0x3fcb44[_0x7815d6(0x166)]+_0x7815d6(0x146));const _0x37870a=await getProfile(_0x4a290a);console[_0x7815d6(0x13e)]('[\x20'+WaktuTanggal+_0x7815d6(0x153)+_0x37870a[_0x7815d6(0x175)]+_0x7815d6(0x17e));}catch(_0x48de1f){console[_0x7815d6(0x180)]('[\x20'+WaktuTanggal+'\x20]\x20Error:\x20'+_0x48de1f[_0x7815d6(0x179)]);}}function _0x1bde(_0x317f64,_0x232d88){const _0x4e8d02=_0x4e8d();return _0x1bde=function(_0x1bde16,_0x105035){_0x1bde16=_0x1bde16-0x138;let _0xaf52f8=_0x4e8d02[_0x1bde16];return _0xaf52f8;},_0x1bde(_0x317f64,_0x232d88);}async function main(_0x3414d6){const _0x50d20a=_0x423083,_0x470d9d=fs['readFileSync'](_0x50d20a(0x16a),'utf8')[_0x50d20a(0x16c)]('\x0a');for(const _0x56bae1 of _0x470d9d){await processAccount(_0x56bae1,_0x3414d6);}await countdown(0x2*0x3c*0x3c*0x3e8+0x2710),main(_0x3414d6);}const asciiTabiZoo=_0x423083(0x15c);function askUserForUpLevel(){const _0x3e57d5=_0x423083,_0x2199c1=readline[_0x3e57d5(0x187)]({'input':process['stdin'],'output':process[_0x3e57d5(0x17c)]});_0x2199c1[_0x3e57d5(0x184)](_0x3e57d5(0x182),_0x29e2ef=>{const _0x1953e4=_0x3e57d5,_0xc95341=_0x29e2ef[_0x1953e4(0x151)]()==='y';console[_0x1953e4(0x13e)](''),_0x2199c1['close'](),main(_0xc95341);});}const mainAndrazBot=async()=>{const _0x35c724=_0x423083;console['log'](asciiTabiZoo);let {purchase_code:_0x5ec2ab,email:_0x7fad64}=await getLicense(),_0x737ac0=![];while(!_0x737ac0){const _0x894d5a=await checkLicense(_0x5ec2ab,_0x7fad64);_0x894d5a?_0x737ac0=!![]:(console[_0x35c724(0x180)]('License\x20tidak\x20valid,\x20silakan\x20masukkan\x20license\x20dan\x20email\x20yang\x20valid.'),_0x5ec2ab=await askQuestion('Masukkan\x20License:\x20'),_0x7fad64=await askQuestion('Masukkan\x20email:\x20'),fs['writeFileSync']('license.txt',_0x5ec2ab+','+_0x7fad64,_0x35c724(0x147)));}await askUserForUpLevel();};mainAndrazBot();
+const axios = require('axios');
+const fs = require('fs');
+const readline = require('readline');
+
+async function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function formatTime(ms) {
+  const totalSeconds = Math.floor(ms / 1000);
+  const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+  const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+  const seconds = String(totalSeconds % 60).padStart(2, '0');
+  return `${hours}:${minutes}:${seconds}`;
+}
+
+const currentTime = new Date();
+const WaktuTanggal = `${currentTime.getHours().toString().padStart(2, '0')}:${currentTime.getMinutes().toString().padStart(2, '0')}, ${currentTime.getDate().toString().padStart(2, '0')}/${(currentTime.getMonth() + 1).toString().padStart(2, '0')}/${currentTime.getFullYear()}`;
+
+async function countdown(duration) {
+  let remaining = duration;
+  const animationChars = ['𓃉𓃉𓃉', '𓃉𓃉∘', '𓃉∘°', '∘°∘', '°∘𓃉', '∘𓃉𓃉'];
+  let animationIndex = 0;
+
+  while (remaining > 0) {
+    process.stdout.write(`\r[ ${animationChars[animationIndex]} ] Countdown: ${formatTime(remaining)}`);
+    await delay(80);
+    remaining -= 80;
+    animationIndex = (animationIndex + 1) % animationChars.length;
+  }
+  process.stdout.write('\r[ ∘∘∘ ] Countdown: 00:00:'); 
+  console.log('\n');
+}
+
+async function getProfile(headers) {
+  const url = 'https://api.tabibot.com/api/user/v1/profile';
+  const response = await axios.get(url, { headers });
+  return response.data;
+}
+
+async function getInfo(headers) {
+  const url = 'https://api.tabibot.com/api/mining/v1/info';
+  const response = await axios.get(url, { headers });
+  return response.data;
+}
+
+async function checkinDaily(headers) {
+  const url = 'https://api.tabibot.com/api/user/v1/check-in';
+  const response = await axios.post(url, {}, { headers });
+  return response.data;
+}
+
+async function claimFarming(headers) {
+  const url = 'https://api.tabibot.com/api/mining/v1/claim';
+  const response = await axios.post(url, {}, { headers });
+  return response.data;
+}
+
+async function levelUp(headers) {
+  const url = 'https://api.tabibot.com/api/user/v1/level-up';
+  const response = await axios.post(url, {}, { headers });
+  return response.data;
+}
+
+async function processAccount(rawdata, autoLevelUp) {
+  const headers = { Rawdata: rawdata.trim() };
+
+  let profile = await getProfile(headers);
+  console.log(`[ ${WaktuTanggal} ] ID: \x1b[33m${profile.data.user.tg_user_id}\x1b[0m`);
+  console.log(`[ ${WaktuTanggal} ] Name: \x1b[33m${profile.data.user.name}\x1b[0m`);
+
+  if (!profile.hasCheckedIn) {
+    await checkinDaily(headers);
+    console.log(`[ ${WaktuTanggal} ] Checkin Daily: \x1b[32mSukses\x1b[0m`);
+  } else {
+    console.log(`[ ${WaktuTanggal} ] Checkin Daily: \x1b[31mSudah Pernah\x1b[0m`);
+  }
+
+  const info = await getInfo(headers);
+  console.log(`[ ${WaktuTanggal} ] Rate Mining: \x1b[33m${info.data.mining_data.rate + info.data.mining_data.referral_rate}\x1b[0m`);
+
+  if (info.data.mining_data.top_limit === info.data.mining_data.current) {
+    await claimFarming(headers);
+    console.log(`[ ${WaktuTanggal} ] Mining Farming: \x1b[33m${info.data.mining_data.current}/${info.data.mining_data.top_limit}\x1b[0m`);
+    console.log(`[ ${WaktuTanggal} ] Klaim Farming: \x1b[32mSukses +${info.data.mining_data.current}\x1b[0m`);
+  } else {
+    console.log(`[ ${WaktuTanggal} ] Mining Farming: \x1b[33m${info.data.mining_data.current}/${info.data.mining_data.top_limit}\x1b[0m`);
+    const nextClaimTime = new Date(info.data.mining_data.next_claim_time).toLocaleString();
+    console.log(`[ ${WaktuTanggal} ] Klaim Farming: \x1b[31m${nextClaimTime}\x1b[0m`);
+  }
+
+  if (autoLevelUp) {
+    const newProfile = await getProfile(headers);
+    const levelUpResponse = await levelUp(headers);
+    if (newProfile.data.user.level < levelUpResponse.data.user.level) {
+      console.log(`[ ${WaktuTanggal} ] Level Up: \x1b[32mSukses\x1b[0m`);
+      console.log(`[ ${WaktuTanggal} ] Level: \x1b[33m${levelUpResponse.data.user.level}\x1b[0m`);
+    } else {
+      console.log(`[ ${WaktuTanggal} ] Level Up: \x1b[31mGagal\x1b[0m`);
+      console.log(`[ ${WaktuTanggal} ] Level: \x1b[33m${levelUpResponse.data.user.level}\x1b[0m`);
+    }
+  } else {
+    console.log(`[ ${WaktuTanggal} ] Level: \x1b[33m${profile.data.user.level}\x1b[0m`);
+  }
+
+  const updatedProfile = await getProfile(headers);
+  console.log(`[ ${WaktuTanggal} ] Balance: \x1b[33m${updatedProfile.data.user.coins}\x1b[0m\n`);
+}
+
+async function main(autoLevelUp) {
+  const hashData = fs.readFileSync('hash.txt', 'utf8').split('\n');
+  for (const rawdata of hashData) {
+    await processAccount(rawdata, autoLevelUp);
+  }
+
+  await countdown(2 * 60 * 60 * 1000 + 10000);
+  main(autoLevelUp);
+}
+
+const asciiTabiZoo = `
+ _____      _     _ _____            
+/__   \\__ _| |__ (_) _  / ___   ___  
+  / /\\/ _\` | '_ \\| \\// / / _ \\ / _ \\ 
+ / / | (_| | |_) | |/ //\\ (_) | (_) |
+ \\/   \\__,_|_.__/|_/____/\\___/ \\___/ 
+
+  t.me/andraz404               v1.1
+  
+`;
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+console.log(asciiTabiZoo);
+rl.question(`Auto Level Up (y/n) ? `, (answer) => {
+  const autoLevelUp = answer.toLowerCase() === 'y';
+  console.log('');
+  rl.close();
+  main(autoLevelUp);
+});
